@@ -1,0 +1,7 @@
+{% extends 'blog/base.html' %}
+
+    {% block content %}
+        <h1>Oops! Something went wrong...</h1>
+        <h2>Don't worry, it's not your fault, we will add this page later ;)</h2>
+        <h3>Meanwhile, you may<a href="{% url 'post_list' %}">come back to main page</a></h3>
+    {% endblock %}
